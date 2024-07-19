@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(250, 208, 215);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+
+.title>a {
+    text-decoration: none;
+    margin-left: 40px; 
+    color: rgb(79, 72, 72);
+    text-transform: uppercase;
+}
+
+.title>a:hover
+{
+    box-shadow: 5px 5px 9px purple;
+    padding-inline: 10px;
+    text-decoration: underline;
+}
+.side1{
+    margin: 200px 10px 50px 100px;
+    color: rgb(79, 72, 72);
+}
+
+div>img {
+    height: 450px;
+    width: 400px;
+    border: 2px solid rgb(203, 163, 241);
+    border-radius: 20%;
+    margin: 100px 40px 10px 230px;
+}
+div>img:hover
+{
+    box-shadow: 10px 10px 10px rgb(161, 87, 161);
+    border-radius: 50%;
+}
+.form
+{
+    box-shadow: 3px 4px 10px rgb(161, 87, 161);
+    text-align: center;
+    padding: 50px;
+    height: 280px;
+    width: 500px;
+    margin-top: 500px;
+    margin-left: 500px;   
+  
+}
+
+.effect:hover
+{
+    box-shadow: 2px 3px 3px purple;
+    box-sizing: content-box;
+   
+}
+.effect
+{
+    color: rgb(79, 72, 72);
+    
+}
+.mid
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-spacing: 90px;
+}
+.mid:hover{
+    box-shadow: 1px 3px 9px rgb(86, 41, 86);
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 110px;
+   
+}
+.btn{
+    color: black; 
+    background-color: grey; 
+    height: 30px; 
+    border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 4px 4px 4px white;
+}
+
+.skill>.BOX
+{
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    margin-left: 150px;
+    box-shadow: 4px 4px 9px rgb(212, 76, 212);
+    color: rgb(102, 98, 98);
+}
+
+.skill>.BOX:hover
+{
+    border-radius: 20%;
+    text-transform: uppercase;
+}
+
+#mysk:hover
+{
+    text-shadow: 4px 4px 5px rgb(212, 76, 212);
+}
+
+
